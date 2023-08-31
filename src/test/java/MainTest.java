@@ -1,6 +1,5 @@
 import app.config.AppConfig;
 import app.model.AnimalsCage;
-import app.model.Timer;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;

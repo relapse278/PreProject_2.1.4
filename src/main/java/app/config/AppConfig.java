@@ -13,19 +13,16 @@ import org.springframework.context.annotation.Configuration;
 public class AppConfig {
     @Bean(name = "dog")
     public Animal getDog() {
-        Animal animal = new Dog();
-        return animal;
+        return new Dog();
     }
 
     @Bean(name = "cat")
     public Animal getCat() {
-        Animal animal = new Cat();
-        return animal;
+        return new Cat();
     }
 
     @Bean(name = "timer")
     public Timer getTimer(){
-        Timer timer = new Timer();
-        return timer;
+        return new Timer();
     }
 }
